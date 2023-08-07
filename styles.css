@@ -1,0 +1,128 @@
+
+    body{
+        font-family: Rancho,shadow-multiple;
+         margin:20%;
+        padding: 0px;
+        background:url("image.jpg");
+        background-size: cover;
+        color: white;
+    
+    
+
+        
+    }
+    .left{
+    
+        border: 2px solid white;
+        top: 0px;
+        left:12px;
+        position: absolute;
+        background-color: black;
+        
+       
+    
+
+    }
+    .left img{
+        width:50px;
+        margin: 2px 2px;
+    }
+    .left div{
+        text-align: center;
+        color:white;
+    }
+   .mid{
+     /*border: 2px solid red;*/
+     display: block;
+     width :58%;
+     top: 0px;
+     margin: left;
+     position: absolute;
+     
+     
+   }
+   .right{
+   /* border: 2px solid greenyellow;*/
+    position: absolute;
+    display: inline block;
+    right: 34px;
+    top:25px;
+
+    
+    }
+    .navbar{
+        display: inline block;
+        
+        
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 7px;
+       
+    }
+    .navbar li a{
+        color: rgb(243, 239, 241);
+        font-size: x-large;
+        text-decoration: None;
+        /*background-color: rgb(114, 9, 71);
+        border: 3px solid black;
+        border-radius: 10px;*/
+        
+    }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color:gray;
+            
+
+        }
+
+       .btn{
+        padding: 1px 2px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: Rancho,shadow-multiple;
+
+       }
+       .btn:hover{
+        background-color:rgb(12, 12, 12);
+        font-style: oblique;
+        color:white ;
+       } 
+
+        
+.container{
+   /* border: 2px solid rgb(238, 243, 238);*/
+    display: inline-block;
+    position: absolute;
+    width:20%;
+    top: 100px;
+    left: 10px;
+    padding: 20px;
+
+}
+.container p{
+    text-align: center;
+}
+.form-group{
+    padding: 10px;
+    margin: 0px 60px;
+    
+}
+.form-group input{
+    text-align: center;
+    border: 2px solid black;
+     border-radius:7px ;
+     font-family: Rancho,shadow-multiple;
+     width: 130px;
+}
+/* Button css*/
+.container button{
+    display: block;
+    margin:auto;
+    width: 45px;
+}
+
+
+    
